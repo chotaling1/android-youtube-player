@@ -9,3 +9,7 @@
 /build
 /captures
 java_pid*.hprof
+AndroidYoutubePlayerNuget/.vs
+.idea
+AndroidYoutubePlayerNuget/bin
+AndroidYoutubePlayerNuget/obj
