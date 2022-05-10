@@ -18,6 +18,16 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>AndroidYoutubePlayerCore</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Chuck Hotaling</Authors>
+    <Owners>Chuck Hotaling</Owners>
+    <PackageProjectUrl>https://github.com/chotaling1/android-youtube-player</PackageProjectUrl>
+    <Summary>A Xamarin.Android binding of the popular Android Youtube Player library</Summary>
+    <Title>Android Youtube Player Core</Title>
+    <Description>An Android Binding for Pierfrancesco Soffritti's great library https://github.com/PierfrancescoSoffritti/android-youtube-player
+</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +71,11 @@
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.4.1.1" />
     <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.6" />
     <PackageReference Include="Xamarin.YouTube.Player.Android" Version="1.2.2" />
+    <PackageReference Include="NuGet.Build.Tasks.Pack">
+      <Version>6.1.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
