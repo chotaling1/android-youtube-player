@@ -64,7 +64,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\core-release.aar" />
+    <LibraryProjectZip Include="..\core\build\outputs\aar\core-release.aar" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.3.0.3" />
