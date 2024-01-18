@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AndroidYoutubePlayer</RootNamespace>
+    <AssemblyName>AndroidYoutubePlayer</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>AndroidYoutubePlayerCore.Net</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Chuck Hotaling</Authors>
+    <PackageProjectUrl>https://github.com/chotaling1/android-youtube-player</PackageProjectUrl>
+    <Title>.NET Android binding of Android Youtube Player</Title>
+    <Summary>.NET Android binding of Android Youtube Player, a popular library written by Pierfrancesco Soffritti</Summary>
+    <Description>
+        .NET Android binding of Android Youtube Player, a popular library written by Pierfrancesco Soffritti
+        https://github.com/PierfrancescoSoffritti/android-youtube-player
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AndroidLibrary Include="..\core\build\outputs\aar\core-release.aar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.3.0.3" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.4.1.1" />
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.6" />
+    <PackageReference Include="Xamarin.YouTube.Player.Android" Version="1.2.2" />
+  </ItemGroup>
+
+</Project>
