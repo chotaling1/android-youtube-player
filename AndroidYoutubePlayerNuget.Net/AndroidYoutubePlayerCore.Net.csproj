@@ -5,11 +5,13 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AndroidYoutubePlayer</RootNamespace>
+    <AssemblyName>AndroidYoutubePlayer</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>AndroidYoutubePlayerCore.Net</PackageId>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Chuck Hotaling</Authors>
     <PackageProjectUrl>https://github.com/chotaling1/android-youtube-player</PackageProjectUrl>
     <Title>.NET Android binding of Android Youtube Player</Title>
